@@ -1,7 +1,7 @@
 filters:
   and:
     - '!file.name.contains("Template")'
-    - categories.contains(link("Journal"))
+    - categories.contains(link("Fractal"))
 properties:
   file.name:
     displayName: Entry

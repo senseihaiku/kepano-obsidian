@@ -1,5 +1,5 @@
 ---
 categories:
-  - "[[Journal]]"
+  - "[[Fractal]]"
 created: {{date}}
 ---
