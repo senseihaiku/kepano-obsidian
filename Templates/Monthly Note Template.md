@@ -4,7 +4,7 @@ aliases:
 previous: "[[2023-06]]"
 next: "[[2023-08]]"
 categories:
-  - "[[Journal]]"
+  - "[[Daily]]"
 ---
 ## Entries
 

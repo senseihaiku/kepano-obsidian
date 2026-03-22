@@ -1,6 +1,6 @@
 ---
 categories:
-  - "[[Journal]]"
+  - "[[Daily]]"
 ---
 ## Notes
 

@@ -17,7 +17,7 @@ views:
     name: Daily notes
     filters:
       and:
-        - '!categories.contains(link("Journal"))'
+        - '!categories.contains(link("Daily"))'
         - file.name != this.file.name
     order:
       - file.name
@@ -38,7 +38,7 @@ views:
     name: Monthly
     filters:
       and:
-        - '!categories.contains(link("Journal"))'
+        - '!categories.contains(link("Daily"))'
         - file.name != this.file.name
     order:
       - file.name
@@ -53,7 +53,7 @@ views:
     name: Yearly
     filters:
       and:
-        - '!categories.contains(link("Journal"))'
+        - '!categories.contains(link("Daily"))'
         - file.name != this.file.name
     order:
       - file.name
