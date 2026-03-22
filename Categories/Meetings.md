@@ -1,5 +1,3 @@
 ---
-tags:
-  - categories
 ---
 ![[Meetings.base]]

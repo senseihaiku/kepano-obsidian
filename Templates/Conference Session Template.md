@@ -6,8 +6,4 @@ speaker:
 topics: []
 rating: 
 last: {{date}}
-tags:
-  - conferences
-  - sessions
-  - events
 ---

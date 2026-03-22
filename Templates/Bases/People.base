@@ -7,8 +7,8 @@ formulas:
 properties:
   file.name:
     displayName: Name
-  note.tags:
-    displayName: Tags
+  note.categories:
+    displayName: Categories
   note.birthday:
     displayName: Birthday
 views:
@@ -16,18 +16,18 @@ views:
     name: All people
     order:
       - file.name
-      - tags
+      - categories
       - birthday
       - formula.Age
     sort:
       - property: file.name
         direction: ASC
-      - property: tags
+      - property: categories
         direction: ASC
       - property: formula.Age
         direction: DESC
       - property: birthday
         direction: DESC
     columnSize:
-      note.tags: 209
+      note.categories: 209
       formula.Age: 99

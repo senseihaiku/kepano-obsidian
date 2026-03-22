@@ -1,6 +1,6 @@
 ---
-tags:
-  - daily
+categories:
+  - "[[Journal]]"
 ---
 ## Notes
 

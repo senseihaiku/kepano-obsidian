@@ -1,6 +1,5 @@
 ---
+categories:
+  - "[[Journal]]"
 created: {{date}}
-tags:
-  - note
-  - journal
 ---

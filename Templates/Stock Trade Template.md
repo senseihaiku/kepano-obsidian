@@ -1,9 +1,8 @@
 ---
+categories:
+  - "[[Investments]]"
 date: {{date}}
-trade: 
-tags:
-  - investment
-  - trade
-price: 
+trade:
+price:
 shares:
 ---

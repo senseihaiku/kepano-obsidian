@@ -74,7 +74,7 @@ views:
     filters:
       and:
         - file.hasLink(this)
-        - '!tags.containsAny("cities", "countries")'
+        - '!list(type).containsAny(link("Cities"), link("Countries"))'
     order:
       - file.name
       - rating

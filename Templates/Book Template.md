@@ -13,6 +13,5 @@ topics: []
 created: {{date}}
 last:
 via: ""
-tags:
-  - to-read
+status: to-read
 ---
