@@ -7,9 +7,30 @@ properties:
     displayName: Entry
   note.created:
     displayName: Created
+  status:
+    displayName: Status
 views:
   - type: table
-    name: Table
+    name: Inbox
+    filters:
+      and:
+        - status.is("inbox")
     order:
       - file.name
       - created
+      - status
+  - type: table
+    name: Processed
+    filters:
+      and:
+        - status.is("processed")
+    order:
+      - file.name
+      - created
+      - status
+  - type: table
+    name: All
+    order:
+      - file.name
+      - created
+      - status
