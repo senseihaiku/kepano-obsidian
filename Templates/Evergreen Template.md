@@ -1,5 +1,5 @@
 ---
+categories:
+  - "[[Evergreen]]"
 created: {{date}}
-tags:
-  - 0🌲
 ---

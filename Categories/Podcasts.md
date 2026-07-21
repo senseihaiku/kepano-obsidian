@@ -1,6 +1,4 @@
 ---
-tags:
-  - categories
 related: "[[Podcast episodes]]"
 ---
 

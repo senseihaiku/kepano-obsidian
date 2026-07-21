@@ -1,6 +1,6 @@
 filters:
   and:
-    - tags.contains("0🌲")
+    - categories.contains(link("Evergreen"))
     - '!file.name.contains("Template")'
 properties:
   file.name:

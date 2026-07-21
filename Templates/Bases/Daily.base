@@ -12,24 +12,18 @@ properties:
     displayName: Categories
   note.created:
     displayName: Created
-  note.tags:
-    displayName: Tags
 views:
   - type: table
     name: Daily notes
     filters:
       and:
-        - '!file.tags.contains("daily")'
-        - '!file.tags.contains("monthly")'
+        - '!categories.contains(link("Daily"))'
         - file.name != this.file.name
     order:
       - file.name
       - created
       - categories
-      - tags
     sort:
-      - property: tags
-        direction: ASC
       - property: created
         direction: DESC
       - property: file.name
@@ -44,8 +38,7 @@ views:
     name: Monthly
     filters:
       and:
-        - '!file.tags.contains("daily")'
-        - '!file.tags.contains("monthly")'
+        - '!categories.contains(link("Daily"))'
         - file.name != this.file.name
     order:
       - file.name
@@ -60,8 +53,7 @@ views:
     name: Yearly
     filters:
       and:
-        - '!file.tags.contains("daily")'
-        - '!file.tags.contains("monthly")'
+        - '!categories.contains(link("Daily"))'
         - file.name != this.file.name
     order:
       - file.name

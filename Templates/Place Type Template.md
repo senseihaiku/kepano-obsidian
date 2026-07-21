@@ -1,6 +1,4 @@
 ---
-tags:
-  - places/types
 ---
 
 ## Places

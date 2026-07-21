@@ -1,6 +1,4 @@
 ---
-tags:
-  - categories
 ---
 
 ![[Companies.base]]

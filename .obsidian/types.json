@@ -2,7 +2,6 @@
   "types": {
     "aliases": "aliases",
     "cssclasses": "multitext",
-    "tags": "tags",
     "categories": "multitext",
     "created": "date",
     "genre": "multitext",

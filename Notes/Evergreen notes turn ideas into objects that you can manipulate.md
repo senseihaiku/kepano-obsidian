@@ -9,8 +9,6 @@ author:
 published: 2022-09-16
 topics:
   - "[[Evergreen]]"
-tags:
-  - 0🌲
 status:
   - "[[Published]]"
 ---

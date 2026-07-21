@@ -5,7 +5,7 @@ formulas:
   LinksOverlap: formula.Related.length
   Related: list(this.file.links).filter(list(file.links).containsAny(value)).unique()
   BacklinksCount: file.backlinks.length
-  TagsOverlap: list(this.file.tags).filter(list(file.tags).containsAny(value)).unique().length
+  CategoriesOverlap: list(this.categories).filter(list(categories).containsAny(value)).unique().length
 properties:
   formula.LinksOverlap:
     displayName: Links overlap
@@ -13,8 +13,8 @@ properties:
     displayName: Name
   formula.BacklinksCount:
     displayName: Backlinks count
-  formula.TagsOverlap:
-    displayName: Tags overlap
+  formula.CategoriesOverlap:
+    displayName: Categories overlap
   formula.Related:
     displayName: Links
 views:
@@ -31,7 +31,7 @@ views:
     sort:
       - property: formula.LinksOverlap
         direction: DESC
-      - property: formula.TagsOverlap
+      - property: formula.CategoriesOverlap
         direction: DESC
       - property: formula.BacklinksCount
         direction: DESC

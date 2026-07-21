@@ -1,6 +1,6 @@
 ---
+categories:
+  - "[[Fractal]]"
+status: inbox
 created: {{date}}
-tags:
-  - note
-  - journal
 ---

@@ -1,6 +1,4 @@
 ---
-tags:
-  - categories
 ---
 
 ![[Posts.base]]
